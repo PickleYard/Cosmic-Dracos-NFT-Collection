@@ -1,4 +1,4 @@
-#🐲 Cosmic Draco's NFT Generator DApp 🌌
+# 🐲 Cosmic Draco's NFT Generator DApp 🌌
 
 Cosmic Draco's NFT Generator DApp is a decentralized application that leverages artificial intelligence to generate unique art pieces and mint them as Non-Fungible Tokens (NFTs) on the Ethereum blockchain.
 
