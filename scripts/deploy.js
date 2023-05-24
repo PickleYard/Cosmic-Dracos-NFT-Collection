@@ -1,11 +1,11 @@
 const hre = require("hardhat");
 
 async function main() {
-  const NAME = "AI Generated NFT"
-  const SYMBOL = "AINFT"
+  const NAME = "Cosmic Draco's NFT Collection"
+  const SYMBOL = "DRACO"
   const COST = ethers.utils.parseUnits("1", "ether") // 1 ETH
 
-  const NFT = await hre.ethers.getContractFactory("NFT")
+  const NFT = await hre.ethers.getContractFactory("CosmicDracos")
   const nft = await NFT.deploy(NAME, SYMBOL, COST)
   await nft.deployed()
 
